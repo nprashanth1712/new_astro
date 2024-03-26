@@ -141,10 +141,11 @@ def pitra_dosha_report(day, month, year, hour, min,lat,lon):
     return base('pitra_dosha_report',day, month, year, hour, min,lat,lon)
 
 
-def horo_chart(day, month, year, hour, min,lat,lon):
+def horo_chart(chart_id,day, month, year, hour, min,lat,lon):
 
 
     data = {
+        "chart_id":chart_id,
         "day": day,
         "month": month,
         "year": year,
