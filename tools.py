@@ -40,7 +40,7 @@ tools=[
                         "description": "Timezone, eg: 5.5"
                     }
                 },
-                "required": ["day", "month", "year", "hour", "min", "lat", "lon", "tzone"]
+                "required": ["day", "month", "year", "hour", "min", "lat", "lon"]
             }
         }
     },
